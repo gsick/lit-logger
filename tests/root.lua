@@ -1,7 +1,5 @@
-local Path   = require("path")
 local Logger = require("logger")
 
-Logger:new({ path = Path.join(process.cwd(), "console.json") })
 local log = Logger.getLogger("console_logger")
 
 log:error("Should be logged from root")
