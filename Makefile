@@ -18,4 +18,3 @@ test-deps:
 
 test: test-deps
 	cd tests && luvit main.lua
-

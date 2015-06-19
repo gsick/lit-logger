@@ -70,3 +70,10 @@ log:log(Logger.DEBUG, "Should be DEBUG")
 log:log(Logger.TRACE, "Should be TRACE")
 
 log:log(Logger.INFO, "Should be %s quoted %q %c %X", "formatted", "yes", 76, 1024)
+
+
+local function testFuncName()
+  log:log(Logger.ERROR, "Should be ERROR twice")
+end
+
+testFuncName()

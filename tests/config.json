@@ -10,7 +10,8 @@
       },
       {
         "type": "console",
-        "color": true
+        "color": true,
+        "func_info": true
       }
     ]
   },
